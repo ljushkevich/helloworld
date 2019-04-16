@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>landing</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:300,400|Open+Sans:300,400" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./js/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./js/slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="js/slick_nav/slicknav.css">
+
+<!--customstyle-->
+
+    <link rel="stylesheet" href="css/et-line.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="./js/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script src="./js/slick_nav/jquery.slicknav.min.js" type="text/javascript" charset="utf-8"></script>
+ 
+    <script>
+    $( function() {
+      $( "#tabs" ).tabs();
+      $( "#portfolio-tabs").tabs();
+      $(document).ready(function() {
+        $(".reviews-carousel").slick({
+          autoplay: true,
+          autoplaySpeed: 5000,
+          dots: true,
+          slidesToShow: 1,
+          infinite: true,
+          slidesToScroll: 1,
+          prevArrow:'<div class="slick-prev slick-arrow"><div class="carousel-button"><i class="fa fa-chevron-left"></i></div></div>',
+          nextArrow:'<div class="slick-next slick-arrow"><div class="carousel-button"><i class="fa fa-chevron-right"></i></div></div>',
+        });
+
+        $('.header-nav').slicknav({
+            appendTo:'.header .container-fluid',
+            label: ''
+        });
+
+      	});
+    });           
+    </script>
+    
+</head>
+<body>
+    <div class="header">
+        <div class="container-fluid">
+            <div class="logo">
+                <a href="#">
+                    <img src="img/Rhythm.jpg" alt="">
+                </a>
+            </div>
+            <ul class="header-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>          
+        </div>
+    </div>
+    <div id="main">
+        <div class="start">
+                <div class="startpage">
+                    <h1 class="title title-header">Thomas rhytm</h1>
+                    <span>Extraordinary art director & creative minimalism lover</span>
+                </div>
+                <div class="arrow">
+                    <i class="fas fa-angle-down"></i>
+                </div>
+        </div>
+        <div class="about-studio default-section">
+            <div class="container">
+                <h3 class="title">about studio</h3>
+                <div class="row">
+                    <div class="col col-4 col-md-12 col-sm-12">
+                        <blockquote>
+                            <p>Design is not making beauty, beauty emerges from selection, affinities, integration, love.</p>
+                            <span>— Louis Kahn</span>
+                        </blockquote>
+                    </div>
+                    <div class="col col-4 col-md-6 col-sm-12">
+                        <p class="default-text">Lorem ipsum dolor sit amet, consectetur 
+                        adipiscing elit. In maximus ligula semper 
+                        metus pellentesque mattis. Maecenas  volutpat, 
+                        diam enim sagittis quam, id porta quam. Sed id 
+                        dolor consectetur fermentum nibh volutpat, accumsan purus. 
+                        </p>
+                    </div>
+                    <div class="col col-4 col-md-6 col-sm-12">
+                        <p class="default-text">Etiam sit amet fringilla lacus. 
+                        Pellentesque suscipit ante at ullamcorper pulvinar neque porttitor. 
+                        Integer lectus. Praesent sed nisi eleifend, fermentum orci amet, 
+                        iaculis libero. Donec vel ultricies purus. Nam dictum sem, eu aliquam ipsum.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-4 col-md-12">
+                        <div class="item">
+                            <div class="item-photo">
+                                <div class="container-for-flip item-front">
+                                    <img src="img/thomas.png" alt="">
+                                </div>
+                                <div class="container-for-flip item-skills">
+                                    <div class="skills-title">
+                                        Skills
+                                    </div>
+                                    <p class="skills-text">
+                                        abracadabra haligali krishna krishna haligali duis placerat el camnino
+                                    </p>
+                                    <div class="skill">
+                                        <span>branding</span>
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 75%"></div>
+                                        </div>
+                                        <span>design</span>
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 36%"></div>
+                                        </div>
+                                        <span>development</span>
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 89%"></div>
+                                        </div>
+                                        <span>Photography</span>
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 55%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                               
+                            <div class="item-info">
+                                <span class="item-name text-center">Thomas rhytm</span>
+                                <span class="item-role text-center">Art director</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-4 col-md-12">
+                        <div class="item">
+                            <div class="item-photo">
+                                <div class="container-for-flip item-front">
+                                    <img src="img/marta.png" alt="">
+                                </div>
+                                <div class="container-for-flip item-skills">
+                                    <div class="skills-title">
+                                        skills
+                                    </div>
+                                    <p class="skills-text">
+                                        curabitue icaulus acumsan augue nec unibus finibus
+                                    </p>
+                                    <div class="skill">
+                                        <span>branding</span>
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 75%"></div>
+                                        </div>
+                                        <span>design</span>
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 36%"></div>
+                                        </div>
+                                        <span>development</span>
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 53%"></div>
+                                        </div>
+                                        <span>photography</span>
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 89%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <span class="item-name text-center">Marta Laning</span>
+                                <span class="item-role text-center">Web designer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-4 col-md-12">
+                        <div class="item">
+                            <div class="item-photo">
+                                <div class="container-for-flip item-front">
+                                    <img src="img/steve.png" alt="">
+                                </div>
+                                <div class="container-for-flip item-skills">
+                                    <div class="skills-title">
+                                        skills
+                                    </div>
+                                    <p class="skills-text">
+                                    curabitue icaulus acumsan augue nec unibus finibus
+                                    </p>
+                                    <div class="skill">
+                                        <span>branding</span>
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 75%"></div>
+                                        </div>
+                                        <span>design</span>
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 36%"></div>
+                                        </div>
+                                        <span>development</span>
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 53%"></div>
+                                        </div>
+                                        <span>photography</span>
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 89%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <span class="item-name text-center">Steve anders</span>
+                                <span class="item-role text-center">Developer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--SERVICES-->
+        <div class="services default-section">
+            <div class="container">
+                <div class="title text-center">services</div>
+                <div class="tabs col-lg-12" id="tabs">
+                    <ul>
+                        <li>
+                            <a href="#branding">
+                                <span class="services-tab-icon icon-strategy"></span>
+                                <span>Branding</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#web-design">
+                                <span class="services-tab-icon icon-desktop"></span>
+                                <span>Web design</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#graphic-design">
+                                <span class="services-tab-icon icon-tools"></span>
+                                <span>Graphic design</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#development">
+                                <span class="services-tab-icon icon-gears"></span>
+                                <span>Development</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#photography">
+                                <span class="services-tab-icon icon-camera"></span>
+                                <span>Photography</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="row" id="branding">
+                        <div class="col col-4 col-md-12">
+                            <blockquote>
+                                <p>Branding Design is not making beauty, beauty emerges from selection, affinities, integration, love.</p>
+                                <span>— Louis Kahn</span>
+                            </blockquote>
+                        </div>
+                        <div class="col col-4 col-md-6 col-sm-12">
+                            <p class="default-text">Lorem ipsum dolor sit amet, consectetur 
+                            adipiscing elit. In maximus ligula semper 
+                            metus pellentesque mattis. Maecenas  volutpat, 
+                            diam enim sagittis quam, id porta quam. Sed id 
+                            dolor consectetur fermentum nibh volutpat, accumsan purus. </p>
+                        </div>
+                        <div class="col col-4 col-md-6 col-sm-12">
+                            <p class="default-text">Etiam sit amet fringilla lacus. 
+                            Pellentesque suscipit ante at ullamcorper pulvinar neque porttitor. 
+                            Integer lectus. Praesent sed nisi eleifend, fermentum orci amet, 
+                            iaculis libero. Donec vel ultricies purus. Nam dictum sem, eu aliquam ipsum.</p>
+                        </div>
+                    </div>
+                    <div class="row" id="web-design">
+                            <div class="col col-4 col-md-6 col-sm-12">
+                                <blockquote>
+                                    <p>web design Design is not making beauty, beauty emerges from selection, affinities, integration, love.</p>
+                                    <span>— Louis Kahn</span>
+                                </blockquote>
+                            </div>
+                            <div class="col col-4 col-md-6 col-sm-12">
+                                <p class="default-text">Lorem ipsum dolor sit amet, consectetur 
+                                adipiscing elit. In maximus ligula semper 
+                                metus pellentesque mattis. Maecenas  volutpat, 
+                                diam enim sagittis quam, id porta quam. Sed id 
+                                dolor consectetur fermentum nibh volutpat, accumsan purus. </p>
+                            </div>
+                            <div class="col col-4 col-md-6 col-sm-12">
+                                <p class="default-text">Etiam sit amet fringilla lacus. 
+                                Pellentesque suscipit ante at ullamcorper pulvinar neque porttitor. 
+                                Integer lectus. Praesent sed nisi eleifend, fermentum orci amet, 
+                                iaculis libero. Donec vel ultricies purus. Nam dictum sem, eu aliquam ipsum.</p>
+                            </div>
+                    </div>
+                    <div class="row" id="graphic-design">
+                            <div class="col col-4 col-md-6 col-sm-12">
+                                <blockquote>
+                                    <p>graphic design Design is not making beauty, beauty emerges from selection, affinities, integration, love.</p>
+                                    <span>— Louis Kahn</span>
+                                </blockquote>
+                            </div>
+                            <div class="col col-4 col-md-6 col-sm-12">
+                                <p class="default-text">Lorem ipsum dolor sit amet, consectetur 
+                                adipiscing elit. In maximus ligula semper 
+                                metus pellentesque mattis. Maecenas  volutpat, 
+                                diam enim sagittis quam, id porta quam. Sed id 
+                                dolor consectetur fermentum nibh volutpat, accumsan purus. </p>
+                            </div>
+                            <div class="col col-4 col-md-6 col-sm-12">
+                                <p class="default-text">Etiam sit amet fringilla lacus. 
+                                Pellentesque suscipit ante at ullamcorper pulvinar neque porttitor. 
+                                Integer lectus. Praesent sed nisi eleifend, fermentum orci amet, 
+                                iaculis libero. Donec vel ultricies purus. Nam dictum sem, eu aliquam ipsum.</p>
+                            </div>
+                    </div>
+                    <div class="row" id="development">
+                            <div class="col col-4 col-md-6 col-sm-12">
+                                <blockquote>
+                                    <p>development Design is not making beauty, beauty emerges from selection, affinities, integration, love.</p>
+                                    <span>— Louis Kahn</span>
+                                </blockquote>
+                            </div>
+                            <div class="col col-4 col-md-6 col-sm-12">
+                                <p class="default-text">Lorem ipsum dolor sit amet, consectetur 
+                                adipiscing elit. In maximus ligula semper 
+                                metus pellentesque mattis. Maecenas  volutpat, 
+                                diam enim sagittis quam, id porta quam. Sed id 
+                                dolor consectetur fermentum nibh volutpat, accumsan purus. </p>
+                            </div>
+                            <div class="col col-4 col-md-6 col-sm-12">
+                                <p class="default-text">Etiam sit amet fringilla lacus. 
+                                Pellentesque suscipit ante at ullamcorper pulvinar neque porttitor. 
+                                Integer lectus. Praesent sed nisi eleifend, fermentum orci amet, 
+                                iaculis libero. Donec vel ultricies purus. Nam dictum sem, eu aliquam ipsum.</p>
+                            </div>
+                    </div>
+                    <div class="row" id="photography">
+                            <div class="col col-4 col-md-6 col-sm-12">
+                                <blockquote>
+                                    <p>photography Design is not making beauty, beauty emerges from selection, affinities, integration, love.</p>
+                                    <span>— Louis Kahn</span>
+                                </blockquote>
+                            </div>
+                            <div class="col col-4 col-md-6 col-sm-12">
+                                <p class="default-text">Lorem ipsum dolor sit amet, consectetur 
+                                adipiscing elit. In maximus ligula semper 
+                                metus pellentesque mattis. Maecenas  volutpat, 
+                                diam enim sagittis quam, id porta quam. Sed id 
+                                dolor consectetur fermentum nibh volutpat, accumsan purus. </p>
+                            </div>
+                            <div class="col col-4 col-md-6 col-sm-12">
+                                <p class="default-text">Etiam sit amet fringilla lacus. 
+                                Pellentesque suscipit ante at ullamcorper pulvinar neque porttitor. 
+                                Integer lectus. Praesent sed nisi eleifend, fermentum orci amet, 
+                                iaculis libero. Donec vel ultricies purus. Nam dictum sem, eu aliquam ipsum.</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner">
+
+        </div>
+        <!--Portfolio-->
+        <div class="portfolio">
+            <div class="title text-center">
+                <span>Portfolio</span>
+            </div>
+            <div class="portfolio-content text-center container">
+                <p class="default-text">In auctor ex id urna faucibus porttitor. 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                In maximus ligula semper metus pellentesque mattis. 
+                Maecenas  volutpat, diam enim sagittis quam, id porta quam. 
+                Sed id dolor consectetur fermentum nibh volutpat, accumsan 
+                purus. </p>
+            </div>
+            <div class="portfolio-tabs" id="portfolio-tabs">
+                <ul class="pf">
+                    <li>
+                        <a class="col-sm-12" href="#all-works">
+                            <span>All works</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#branding">
+                            <span>branding</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#design">
+                            <span>design</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#photography">
+                            <span>photography</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="portfolio-img" id="all-works">
+                    <div class="row">
+                        <div class="col col-4 col-lg-6 col-md-12">
+                            <div class="img">
+                                <a href="" class=""><img src="img/portfolio1.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col col-4 col-lg-6 col-md-12">
+                            <div class="img ">
+                                <a href="" class=""><img src="img/portfolio2.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col col-4 col-lg-6 col-md-12">
+                            <div class="img">
+                                <a href="" class=""><img src="img/portfolio3.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-4 col-lg-6 col-md-12">
+                            <div class="img">
+                                <a href="" class=""><img src="img/portfolio4.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col col-4 col-lg-6 col-md-12">
+                            <div class="img">
+                                <a href="" class=""><img src="img/portfolio5.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col col-4 col-lg-6 col-md-12">
+                            <div class="img">
+                                <a href="" class=""><img src="img/portfolio6.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="portfolio-img" id="branding">
+                    <div class="row">
+                        <div class="col col-4 col-lg-12 ">
+                            <div class="img">
+                                <a href="" class=""><img src="img/portfolio1.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-4 col-lg-12">
+                            <div class="img ">
+                                <a href="" class=""><img src="img/portfolio4.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>                
+                </div>
+                <div class="portfolio-img" id="design">             
+                    <div class="row">
+                        <div class="col col-4 col-lg-12">
+                            <div class="img">
+                                <a href="" class=""><img src="img/portfolio2.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-4 col-lg-12">
+                            <div class="img ">
+                                <a href="" class=""><img src="img/portfolio5.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-img" id="photography">
+                    <div class="row">
+                        <div class="col col-4 col-lg-12">
+                            <div class="img">
+                                <a href="" class=""><img src="img/portfolio3.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-4 col-lg-12">
+                            <div class="img ">
+                                <a href="" class=""><img src="img/portfolio6.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>                      
+        </div>
+        <div class="creative-works">
+            <div class="cw-content text-center">
+                <div class="title title-light-white cw-title">like our creative works?</div>
+                <div class="btn cw-btn">start project</div>
+            </div>
+        </div>
+        <!--why choose us-->
+        <div class="benefits default-section">
+            <div class="container">
+                <div class="title text-center">
+                    <span class="title">why choose us?</span>
+                </div>
+                <div class="row">
+                    <div class="col col-4 col-md-12">
+                        <div class="benefits-item">
+                            <div class="benefits-icon text-center">
+                                <i class="icon-flag"></i>
+                            </div>
+                            <div class="benefits-title text-center">
+                                <span>we're creative</span>
+                            </div>
+                            <div class="benefits-content">
+                                <p class="default-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                In maximus ligula semper metus pellentesque mattis. Maecenas  
+                                volutpat, diam enim.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-4 col-md-12">
+                        <div class="benefits-item">
+                            <div class="benefits-icon text-center">
+                                <i class="icon-clock"></i>
+                            </div>
+                            <div class="benefits-title text-center">
+                                <span>we're punctual</span>
+                            </div>
+                            <div class="benefits-content">
+                                <p class="default-text">Proin fringilla augue at maximus vestibulum. 
+                                Nam pulvinar vitae neque et porttitor. Praesent 
+                                sed nisi eleifend, lorem fermentum orci sit amet, 
+                                iaculis libero.</p>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="col col-4 col-md-12">
+                        <div class="benefits-item">
+                            <div class="benefits-icon text-center">
+                                <i class="icon-hotairballoon"></i>
+                            </div>
+                            <div class="benefits-title text-center">
+                                <span>we have magic</span>
+                            </div>
+                            <div class="benefits-content">
+                                <p class="default-text">Curabitur iaculis accumsan augue, nec finibus 
+                                mauris pretium eu. Duis placerat ex gravida nibh 
+                                tristique porta. Nulla facilisi. Suspendisse ultricies 
+                                eros blandit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-4 col-md-12">
+                        <div class="benefits-item">
+                            <div class="benefits-icon text-center">
+                                <i class="icon-heart"></i>
+                            </div>
+                            <div class="benefits-title text-center">
+                                <span>we love minimalism</span>
+                            </div>
+                            <div class="benefits-content">
+                                <p class="default-text">Cras luctus interdum sodales. Quisque quis odio dui. 
+                                Sedes sit amet neque malesuada, lobortis  commodo magna 
+                                ntesque pharetra metus vivera sagittis.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-4 col-md-12">
+                        <div class="benefits-item">
+                            <div class="benefits-icon text-center">
+                                <i class="icon-linegraph"></i>
+                            </div>
+                            <div class="benefits-title text-center">
+                                <span>we're responsible</span>
+                            </div>
+                            <div class="benefits-content">
+                                <p class="default-text">Fusce aliquet quam eget neque ultrices elementum. 
+                                Nulla posuere felis id arcu blandit sagittis. Eleifend 
+                                vestibulum purus, sit amet vulputate risus tristique non.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-4 col-md-12">
+                        <div class="benefits-item">
+                            <div class="benefits-icon text-center">
+                                <i class="icon-chat"></i>
+                            </div>
+                            <div class="benefits-title text-center">
+                                <span>we're friendly</span>
+                            </div>
+                            <div class="benefits-content">
+                                <p class="default-text">Pulvinar vitae neque et porttitor. 
+                                Integer non dapibus diam, ac eleifend lectus. 
+                                Praesent sed nisi eleifend, fermentum orci sit amet, 
+                                iaculis libero interdum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Carousel-->
+        <div class="reviews bg-black">
+            <div class="reviews-carousel default-section">
+                <div class="">
+                    <div class="review-wrapper text-center">
+                        <div class="icon-quote"></div>
+                        <h3 class="title title-light-white">What people say?</h3>
+                        <p class="review-text"> Phasellus luctus commodo ullamcorper a posuere rhoncus commodo elit. Aenean congue,
+                        risus utaliquam dapibus. Thanks!
+                        </p>
+                        <div class="review-author">— John Doe, doodle inc.</div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="review-wrapper text-center">
+                        <div class="icon-quote"></div>
+                        <h3 class="title title-light-white">What people say?</h3>
+                        <p class="review-text"> Phasellus luctus commodo ullamcorper a posuere rhoncus commodo elit. Aenean congue,
+                        risus utaliquam dapibus. Thanks!
+                        </p>
+                        <div class="review-author">— John Doe, doodle inc.</div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="review-wrapper text-center">
+                        <div class="icon-quote"></div>
+                        <h3 class="title title-light-white">What people say?</h3>
+                        <p class="review-text"> Phasellus luctus commodo ullamcorper a posuere rhoncus commodo elit. Aenean congue,
+                        risus utaliquam dapibus. Thanks!
+                        </p>
+                        <div class="review-author">— John Doe, doodle inc.</div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="review-wrapper text-center">
+                        <div class="icon-quote"></div>
+                        <h3 class="title title-light-white">What people say?</h3>
+                        <p class="review-text"> Phasellus luctus commodo ullamcorper a posuere rhoncus commodo elit. Aenean congue,
+                        risus utaliquam dapibus. Thanks!
+                        </p>
+                        <div class="review-author">— John Doe, doodle inc.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Latest news-->
+        <div class="news default-section">
+            <div class="container">
+                <div class="title">
+                    <span class="title">Latest news</span>
+                    <a href="" class="news-blog">all news in our blog <i class="fas fa-angle-right"></i></a>
+                </div>
+                <div class="row">
+                    <div class="col col-4 col-md-12">
+                        <div class="news-item">
+                            <div class="news-img">
+                                    <a href="" class=""><img src="img/latest1.jpg" alt=""></a>
+                            </div>
+                            <div class="news-title">
+                                <a href="">New web design trends</a>
+                            </div>
+                            <div class="news-author">
+                                <span>John Doe | 10 December</span>
+                            </div>
+                            <p class="default-text">Maecenas  volutpat, diam enim 
+                            sagittis quam, id porta quam. Sed id dolor consectetur 
+                            fermentum nibh volutpat, accumsan purus. 
+                            </p>
+                            <a href="" class="btn btn-small bnt-gray">read more<i class="fas fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col col-4 col-md-12">
+                        <div class="news-item">
+                            <div class="news-img">
+                                <a href="" class=""><img src="img/latest2.jpg" alt=""></a>
+                            </div>
+                            <div class="news-title">
+                            <a href="">minimalistic design forever</a>                                    </div>
+                            <div class="news-author">
+                                <span>John Doe | 9 December</span>
+                            </div>
+                            <p class="default-text">Maecenas  volutpat, diam enim 
+                            sagittis quam, id porta quam. Sed id dolor consectetur 
+                            fermentum nibh volutpat, accumsan purus. 
+                            </p>      
+                            <a href="" class="btn btn-small bnt-gray">read more<i class="fas fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col col-4 col-md-12">
+                        <div class="news-item">
+                            <div class="news-img">
+                                <a href="" class=""><img src="img/latest3.jpg" alt=""></a>
+                            </div>
+                            <div class="news-title">
+                                <a href="">Hipster’s Style in Web</a>
+                            </div>
+                            <div class="news-author">
+                                <span>John Doe | 7 December</span>
+                            </div>
+                            <p class="default-text">Maecenas  volutpat, diam enim 
+                            sagittis quam, id porta quam. Sed id dolor consectetur 
+                            fermentum nibh volutpat, accumsan purus. 
+                            </p>
+                            <a href="" class="btn btn-small bnt-gray">read more<i class="fas fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>          
+            </div>
+        </div>
+        <!--stay informed-->
+        <div class="stay-informed">
+            <div class="title text-center si-title">stay informed with our newsletter</div>
+            <div class="text-center">
+                <div class="email">
+                    <input type="text" name="user-name" placeholder="enter email here" class="form-control">
+                </div>
+                <div class="btn-black">subscribe</div>
+            </div>
+            <div class="trust text-center"><i class="fas fa-info-circle"></i>
+                Please trust us, we will never spend you spam
+            </div>
+        </div>
+        <!--Contacts-->
+        <div class="contact default-section">
+            <div class="container">
+                <div class="title text-center">contact</div>
+                <div class="row">
+                    <div class="col col-8 m-auto">
+                        <div class="contact-items">
+                            <div class="row">
+                                <div class="col col-4 col-lg-12">
+                                    <div class="contact-info m-auto">
+                                        <div class="block-icon">
+                                            <i class="fas fa-phone"></i>
+                                        </div>
+                                        <div class="item-content">
+                                            <div class="cont-title">call us</div>
+                                            <div class="cont-data">+61 3 8376 6284</div>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                                <div class="col col-4 col-lg-12">
+                                    <div class="contact-info">
+                                        <div class="block-icon">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                        </div>
+                                        <div class="item-content">
+                                            <div class="cont-title">address</div>
+                                            <div class="cont-data">245 Quiegly Blvd, Ste K</div>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                                <div class="col col-4 col-lg-12">
+                                    <div class="contact-info">
+                                        <div class="block-icon">
+                                            <i class="fas fa-envelope"></i>
+                                        </div>
+                                        <div class="item-content">
+                                            <div class="cont-title">email</div>
+                                            <div class="cont-data">support@bestlooker.pro</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <form action="contact-form">
+                            <div class="form-row">
+                                <div class="form-col">
+                                    <input type="text" name="user-name" placeholder="name" class="form-control">
+                                    <input type="text" name="user-name" placeholder="email" class="form-control">
+                                </div>
+                                <div class="form-col">
+                                    <textarea name="user-name" placeholder="message" class="form-control" cols="30" rows="10"></textarea>
+                                </div>         
+                            </div>                         
+                        </form>                        
+                    </div>                    
+                    <div class="col col-8 m-auto">
+                        <div class="btn-black btn-contact col-xs-12">submit message</div>
+                        <span class="trust col-xs-12"><i class="fas fa-info-circle"></i>All the fields are required</span>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+        <!--map container-->
+        <div class="map-container">
+            <div class="map-cover">
+                <div class="open-map text-center">
+                    <p class="title title-light-white map-title">open the map <i class="fas fa-angle-down"></i></p>
+                    <div class="block-icon-black">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>                   
+                </div>
+            </div>
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5928.485556748292!2d36.24063361579487!3d49.98022538633581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1555050635206!5m2!1sru!2sua" width="1600" height="410" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>            
+        </div>
+    </div>
+    <!--/main-->
+    <div id="footer">
+        <div class="f-container text-center">
+            <div class="f-img">
+                <img src="img/footer.jpg" alt="">
+            </div>
+            <div class="f-icons col">
+                <div class="f-block-icon">
+                    <i class="fab fa-pinterest"></i>
+                </div>
+                <div class="f-block-icon">
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+                <div class="f-block-icon">
+                    <i class="fab fa-behance"></i>
+                </div>
+                <div class="f-block-icon">
+                    <i class="fab fa-twitter"></i>
+                </div>
+                <div class="f-block-icon">
+                    <i class="fab fa-facebook-f"></i>
+                </div>                   
+            </div>
+            <div class="cont-title text-center">
+                <i class="far fa-copyright"></i> Rhytm 2014          
+            </div>
+            <div class="text-center foot">
+                <p class="">made with love for great people</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
