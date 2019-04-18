@@ -62,5 +62,6 @@ Table
 | OneDrive | [plugins/onedrive/README.md][PlOd] |
 | Medium | [plugins/medium/README.md][PlMe] |
 | Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
+***
 
  _Please note that there exist NO other official account, app or merchandise except for the official domain and this repository. `Something interesting selection`_
